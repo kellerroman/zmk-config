@@ -21,9 +21,9 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &mt LSHIFT A &kp S &kp D &lt 1 F &kp G   &kp H &lt 2 J  &kp K     &kp L   &mt RSHIFT SEMI &kp SQT
-   &kp LSHFT &mt LCTRL Z &mt LGUI X &mt LALT C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp DE_FSLH &kp ESC
-                  &kp DEL &kp BSPC &kp SPACE   &kp RET &kp TAB &kp RALT
+   &kp LCTRL &mt LSHIFT A &kp S &lt 2 D &lt 1 F &kp G   &kp H &lt 1 J  &lt 2 K  &kp L   &mt RSHIFT SEMI &kp SQT
+   &kp LSHFT &mt LCTRL Z &mt LGUI X &mt LALT C &kp V &kp B   &kp N &kp M  &mt RALT COMMA &mt RGUI DOT &mt RCTRL DE_FSLH &kp ESC
+                  &kp DEL &kp BSPC &kp SPACE   &kp RET &kp TAB &kp ESC
                         >;
                 };
                 lower_layer {
