@@ -33,10 +33,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp DE_AT &kp DE_EURO &kp DE_LEFT_BRACE &kp DE_RIGHT_BRACE &kp DE_PIPE   &kp DE_A_UMLAUT &kp DE_SZ &kp DE_ACUTE &kp DE_CARET &kp DE_AMPERSAND &kp BSPC
-   &kp LCTRL &kp DE_HASH &kp DE_DOLLAR &kp DE_LEFT_PARENTHESIS &kp DE_RIGHT_PARENTHESIS &kp DE_GRAVE &kp DE_O_UMLAUT &kp DE_EQUAL &kp DE_UNDERSCORE &kp DE_LESS_THAN &kp DE_GREATER_THAN &kp GRAVE
-   &kp LSHFT &kp DE_PERCENT &kp DE_SECTION &kp DE_LEFT_BRACKET &kp DE_RIGHT_BRACKET &kp DE_TILDE &kp DE_U_UMLAUT &kp DE_PLUS  &kp DE_MINUS &kp DE_STAR &kp DE_BACKSLASH &kp TILDE
-                            &kp LGUI &kp DE_EXCLAMATION &kp DE_QUESTION &kp DE_DOUBLE_QUOTES &kp DE_SINGLE_QUOTE &kp RALT
+   &kp  TAB  &kp DE_AT      &kp DE_EURO    &kp DE_LEFT_BRACE       &kp DE_RIGHT_BRACE       &kp DE_PIPE          &kp DE_O_UMLAUT      &kp DE_SZ           &kp DE_ACUTE      &kp DE_CARET     &kp DE_AMPERSAND    &kp BSPC
+   &kp LCTRL &kp DE_HASH    &kp DE_DOLLAR  &kp DE_LEFT_PARENTHESIS &kp DE_RIGHT_PARENTHESIS &kp DE_GRAVE         &kp DE_A_UMLAUT      &kp DE_EQUAL        &kp DE_UNDERSCORE &kp DE_LESS_THAN &kp DE_GREATER_THAN &kp GRAVE
+   &kp LSHFT &kp DE_PERCENT &kp DE_SECTION &kp DE_LEFT_BRACKET     &kp DE_RIGHT_BRACKET     &kp DE_TILDE         &kp DE_U_UMLAUT      &kp DE_PLUS         &kp DE_MINUS      &kp DE_STAR      &kp DE_BACKSLASH    &kp TILDE
+                                           &kp LGUI                &kp DE_EXCLAMATION       &kp DE_QUESTION      &kp DE_DOUBLE_QUOTES &kp DE_SINGLE_QUOTE &kp RALT
                         >;
                 };
 
@@ -55,18 +55,18 @@
                 };
                 arrow_layer {
                         bindings = <
-   &kp TAB    &kp LC(N1)       &kp LC(N2)      &kp LC(N3)      &kp LC(N4)       &kp N5         &kp HOME &kp PAGE_DOWN &kp PAGE_UP &kp END &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &kp LS(LC(N1)) &kp LS(LC(N2)) &kp LS(LC(N3)) &kp LS(LC(N4)) &trans &kp LG(LEFT) &kp LG(DOWN) &kp LG(UP) &kp LG(RIGHT) &trans &trans
-                                    &kp LGUI     &trans       &kp LG(LEFT)      &kp LG(RIGHT) &trans   &kp RALT
+   &kp TAB    &kp LC(N1)     &kp LC(N2)     &kp LC(N3)     &kp LC(N4)     &kp N5       &kp HOME      &kp PAGE_DOWN &kp PAGE_UP   &kp END       &kp N0 &kp BSPC
+   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4 &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &trans &trans
+   &kp LSHFT  &kp LS(LC(N1)) &kp LS(LC(N2)) &kp LS(LC(N3)) &kp LS(LC(N4)) &trans       &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)    &kp LG(RIGHT) &trans &trans
+                                            &kp LGUI       &trans         &kp LG(LEFT) &kp LG(RIGHT) &trans        &kp RALT
                         >;
                 };
                 mouse_layer {
                         bindings = <
-   &kp PRINTSCREEN &kp LC(N1) &kp LC(N2)    &kp LC(N3)    &kp LC(N4)    &trans &kp HOME &kp PAGE_DOWN &kp PAGE_UP &kp END &kp N0 &kp BSPC
-   &trans          &kp RET    &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &trans          &kp ESC    &kp LS(LC(X)) &kp LS(LC(C)) &kp LS(LC(V)) &trans &kp LG(LEFT) &kp LG(DOWN) &kp LG(UP) &kp LG(RIGHT) &trans &trans
-                              &kp DEL       &kp SPACE     &kp BSPC      &to 0 &trans   &kp RALT
+   &kp PRINTSCREEN &kp LC(N1) &kp LC(N2)    &kp LC(N3)    &kp LC(N4)    &trans   &kp HOME     &kp PAGE_DOWN &kp PAGE_UP &kp END        &kp N0 &kp BSPC
+   &trans          &kp RET    &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans   &kp LEFT     &kp DOWN      &kp UP      &kp RIGHT      &trans &trans
+   &trans          &kp ESC    &kp LS(LC(X)) &kp LS(LC(C)) &kp LS(LC(V)) &trans   &kp LG(LEFT) &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans &trans
+                                            &kp DEL       &kp SPACE     &kp BSPC &to 0        &trans        &kp RALT
                         >;
                 };
         };
